@@ -9,7 +9,7 @@
 import UIKit
 
 
-extension UIColor {
+public extension UIColor {
     
     //
     static func RWNHexStringToColor(hex:String) ->UIColor {

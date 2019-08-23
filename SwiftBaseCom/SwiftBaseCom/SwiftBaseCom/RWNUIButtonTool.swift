@@ -9,14 +9,14 @@
 import UIKit
 
 
-enum RWNButtonEdgeInsetsStyle {
+public enum RWNButtonEdgeInsetsStyle {
     case Top
     case Left
     case Right
     case Bottom
 }
 
-extension UIButton {
+public extension UIButton {
     
     /**
      *  设置button的titleLabel和imageView的布局样式，及间距

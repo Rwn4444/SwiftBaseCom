@@ -9,7 +9,7 @@
 import UIKit
 import CommonCrypto
 
-extension String {
+public extension String {
     
     ///时间戳转成时间
     func RWNTimeExchangeWithDateFormat(dateFormat : String) -> String {

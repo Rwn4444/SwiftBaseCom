@@ -8,7 +8,7 @@
 
 import UIKit
 
-enum RWNBar{
+public enum RWNBar{
    case Middle
    case Left
    case Right
@@ -16,7 +16,7 @@ enum RWNBar{
 
 
 
-extension UIBarButtonItem {
+public extension UIBarButtonItem {
     
     ///获取barBtn
     static func RWN_BarButnWith(frame:CGRect?,title:String?,titleColor:UIColor?,image:UIImage?,font:UIFont?,Target:AnyObject,action:Selector,direction: RWNBar? ) -> UIBarButtonItem {

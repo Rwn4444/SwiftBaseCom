@@ -8,7 +8,7 @@
 
 import UIKit
 
-extension UIFont{
+public extension UIFont{
     
     static func RWNFontOfSize(fontSize:CGFloat) ->   UIFont {
         
