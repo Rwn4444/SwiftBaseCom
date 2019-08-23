@@ -25,7 +25,7 @@ Pod::Spec.new do |spec|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   spec.description  = <<-DESC
-                 This is SwiftBaseCom
+              This is SwiftBaseCom
                    DESC
 
   spec.homepage     = "https://github.com/Rwn4444/SwiftBaseCom.git"
@@ -39,7 +39,7 @@ Pod::Spec.new do |spec|
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  # spec.license      = "MIT (example)"
+  #spec.license      = "MIT (example)"
    spec.license      = { :type => "MIT", :file => "FILE_LICENSE" }
 
 
@@ -91,7 +91,7 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "SwiftBaseCom/SwiftBaseCom/SwiftBaseCom/*.{h,m}"
+  spec.source_files  =  "SwiftBaseCom/SwiftBaseCom/SwiftBaseCom/*.{swift}"
   #spec.exclude_files = "Classes/Exclude"
 
   # spec.public_header_files = "Classes/**/*.h"
