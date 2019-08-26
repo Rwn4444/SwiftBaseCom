@@ -77,6 +77,7 @@ class ViewController: UIViewController {
         let leftBar2 = UIBarButtonItem.RWN_BarButnWithImage( image: UIImage(named: "黑返回"), Target: self, action: #selector(leftBtnClick), direction: .Left)
         self.navigationItem.leftBarButtonItem = leftBar2
         
+        
         //        let leftBar3 = UIBarButtonItem.RWN_BarButnWith(frame: CGRect(x: 0, y: 0, width: 60, height: 44), title: "保存", titleColor: UIColor.black, image: UIImage(named: "黑返回"), font: UIFont.RWNFontOfSize(fontSize: 15), Target: self, action: #selector(leftBtnClick), direction: nil)
         //        self.navigationItem.rightBarButtonItem = leftBar3
         
